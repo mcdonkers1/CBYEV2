@@ -1,12 +1,5 @@
-import '../styles/globals.css';
-import type { AppProps } from 'next/app';
-import Sidebar from '../components/Sidebar';
+import '../styles/globals.css'
 
-export default function App({ Component, pageProps }: AppProps) {
-  return (
-    <>
-      <Sidebar />
-      <Component {...pageProps} />
-    </>
-  );
+export default function App({ Component, pageProps }) {
+  return <Component {...pageProps} />
 }
